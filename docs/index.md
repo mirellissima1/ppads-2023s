@@ -39,6 +39,8 @@
 *&lt;Diagrama de casos de uso&gt;*
 
 * Diagrama 1: https://drive.google.com/file/d/1gD6bqci031OtH8Ps4I0xEQnlFK4LQpvw/view?usp=drivesdk
+* Diagrama 2: [Diagrama em branco.pdf](https://github.com/mirellissima1/ppads-2023s/files/10778917/Diagrama.em.branco.pdf)
+
 
 # Descrição dos casos de uso
 
