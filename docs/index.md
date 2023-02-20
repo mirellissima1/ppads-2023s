@@ -54,8 +54,14 @@ Ator: Pais/Responsáveis*
 
 
 # Protótipos de tela
+![TELA - TIPO ACESSO](https://user-images.githubusercontent.com/88807596/219998775-5bc79d34-a0d3-4ee9-af0c-e58a20ac7c43.jpg)
+![TELA - LOGIN](https://user-images.githubusercontent.com/88807596/219998781-8097e83b-0637-4f4f-a232-a27b40e5c23e.jpg)
+![TELA - ADM ACOMP](https://user-images.githubusercontent.com/88807596/219998784-3d2b6562-ecd8-41b6-b205-803a36d939c1.jpg)
+![TELA - CADASTRO PROFESSOR](https://user-images.githubusercontent.com/88807596/219998788-645a8e19-cf1e-4997-94be-b3775b1f3b5e.jpg)
+![TELA - SALAS PROFESSOR](https://user-images.githubusercontent.com/88807596/219998789-fa3e580d-4559-4437-8ba1-ab976d827a8e.jpg)
+![TELA - REGISTRAR PRESENÇA](https://user-images.githubusercontent.com/88807596/219998790-90ee4781-8889-4e22-a609-4c1e216badfd.jpg)
 
-*&lt;Protótipos de tela&gt;*
+
 
 # Modelo de domínio
 
