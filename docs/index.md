@@ -65,7 +65,7 @@ Ator: Pais/Responsáveis*
 
 # Modelo de domínio
 
-![Modelo Dominio](https://user-images.githubusercontent.com/88807596/221433515-452d0bfe-a9ab-46ed-9640-1d6770dfd581.jpeg)
+![Modelo Dominio](https://user-images.githubusercontent.com/88807596/221433848-72dbb020-97d2-4114-a5af-b018cbabd417.jpeg)
 
 
 # Decisões de arquitetura
