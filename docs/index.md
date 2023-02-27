@@ -73,7 +73,14 @@ Ator: Pais/Responsáveis*
 
 # Decisões de arquitetura
 
-*&lt;Decisões de arquitetura&gt;*
+*Skill
+Nosso time é composto por três integrantes, que se divide com habilidades em front end, back end e organização de projetos, fazendo com que auxiliamos uns aos outros. 
+
+Visão
+Não queremos construir algo complexo, trazendo algo simples, mas eficiente e facilidade no uso do software.
+
+Desenvolvimento
+Pretendemos desenvolver em Python com banco relacional SQL. 
 
 # Diagrama de implantação
 
