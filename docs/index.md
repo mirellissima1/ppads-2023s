@@ -32,13 +32,16 @@
 
 # Descrição do projeto
 
-*Projeto sobre ssitema para controle de presença dos alunos da escola Octógono.*
+*Projeto sobre sitema para controle de presença dos alunos da escola Octógono.*
+*Nesse sistema, diariamente os professores da escola Octógono podem registrar o controle de prenseça e faltas de forma fácil e intuitiva.*
+
 
 # Diagrama de casos de uso
 
 *&lt;Diagrama de casos de uso&gt;*
 
 * Diagrama 1: https://drive.google.com/file/d/1gD6bqci031OtH8Ps4I0xEQnlFK4LQpvw/view?usp=drivesdk
+* ![26d88896-2a78-4c9b-b1c3-990bbd76e0f6](https://user-images.githubusercontent.com/100171962/221702556-8b0a709e-d100-4e94-89eb-d4456601b96b.jpg)
 * Diagrama 2: [Diagrama em branco.pdf](https://github.com/mirellissima1/ppads-2023s/files/10778917/Diagrama.em.branco.pdf)
 
 
