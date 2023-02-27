@@ -40,9 +40,9 @@
 
 *&lt;Diagrama de casos de uso&gt;*
 
-* Diagrama 1: https://drive.google.com/file/d/1gD6bqci031OtH8Ps4I0xEQnlFK4LQpvw/view?usp=drivesdk
-* ![26d88896-2a78-4c9b-b1c3-990bbd76e0f6](https://user-images.githubusercontent.com/100171962/221702556-8b0a709e-d100-4e94-89eb-d4456601b96b.jpg)
-* Diagrama 2: [Diagrama em branco.pdf](https://github.com/mirellissima1/ppads-2023s/files/10778917/Diagrama.em.branco.pdf)
+* Diagrama 1:![26d88896-2a78-4c9b-b1c3-990bbd76e0f6](https://user-images.githubusercontent.com/100171962/221702556-8b0a709e-d100-4e94-89eb-d4456601b96b.jpg)
+* Diagrama 2: ![Diagrama em branco_page-0001](https://user-images.githubusercontent.com/100171962/221702837-74bcd8f3-01cf-46fc-b5a4-9a6be3f080db.jpg)
+
 
 
 # Descrição dos casos de uso
