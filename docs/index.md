@@ -67,7 +67,7 @@ Ator: Pais/Responsáveis*
 
 # Modelo de domínio
 
-[Modelo Dominio](https://user-images.githubusercontent.com/100171962/222984575-bb5d725a-49b0-43d1-b5e2-6dd87cb19007.jpeg)
+![Screenshot_1](https://user-images.githubusercontent.com/100171962/222984656-56660192-3231-4fc5-9675-b2c974db645b.jpg)
 
 
 
