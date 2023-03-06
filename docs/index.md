@@ -28,6 +28,7 @@
 * Mirella Monção de Souza
 * Rute de Almeida Lourenço
 * Isabella Lee Abdala
+* Luan Kennedy Gomes de Carvalho
 
 
 # Descrição do projeto
@@ -67,7 +68,7 @@ Ator: Pais/Responsáveis*
 
 # Modelo de domínio
 
-![Screenshot_1](https://user-images.githubusercontent.com/100171962/222984656-56660192-3231-4fc5-9675-b2c974db645b.jpg)
+![Modelo-Dominio](https://user-images.githubusercontent.com/100171962/223276925-88fb33fe-dd90-4eb1-95c8-38752d3aa880.jpg)
 
 
 
