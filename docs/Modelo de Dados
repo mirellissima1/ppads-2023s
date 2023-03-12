@@ -1,0 +1,124 @@
+CREATE TABLE turmas (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(50) NOT NULL,
+  horario VARCHAR(20) NOT NULL,
+  materia VARCHAR(30) NOT NULL
+);
+
+INSERT INTO turmas (nome, horario, materia)
+VALUES ('Turma A', 'Segunda 14h às 16h', 'Matemática'),
+       ('Turma B', 'Terça 18h às 20h', 'Português');
+
+CREATE TABLE professores (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(50) NOT NULL,
+  materia VARCHAR(50) NOT NULL,
+  responsavel BOOLEAN NOT NULL DEFAULT FALSE,
+  turma_id INTEGER REFERENCES turmas(id)
+);
+
+INSERT INTO professores (nome, materia, responsavel, turma_id)
+VALUES ('Carlos', 'Matemática', true, 1),
+       ('Ana', 'Português', false, 2),
+       ('Pedro', 'Física', true, 2),
+       ('Mariana', 'História', false, 1);
+
+CREATE TABLE alunos (
+  id SERIAL PRIMARY KEY,
+  nome VARCHAR(50) NOT NULL,
+  matricula VARCHAR(20) NOT NULL,
+  email_responsavel VARCHAR(50) NOT NULL,
+  turma_id INTEGER REFERENCES turmas(id)
+);
+
+INSERT INTO alunos (nome, matricula, email_responsavel, turma_id)
+VALUES ('João', '2022001', 'miranda@gmail.com', 1),
+       ('Maria', '2022002','almeida@gmail.com', 1),
+       ('Pedro', '2022003','fagundes@gmail.com', 1),
+       ('Ana', '2022004', 'maiara@gmail.com', 2),
+       ('Lucas', '2022005','miraa@gmail.com', 2),
+       ('Julia', '2022006','bira@gmail.com', 2);
+
+CREATE TABLE presencas (
+  id SERIAL PRIMARY KEY,
+  aluno_id INTEGER REFERENCES alunos(id),
+  dia DATE NOT NULL,
+  presente BOOLEAN NOT NULL
+);
+
+INSERT INTO presencas (aluno_id, dia, presente)
+VALUES (1, '2023-03-01', true),
+       (2, '2023-03-01', false),
+       (3, '2023-03-01', true),
+       (4, '2023-03-01', true),
+       (5, '2023-03-01', true),
+       (6, '2023-03-01', false),
+       (1, '2023-03-03', true),
+       (2, '2023-03-03', true),
+       (3, '2023-03-03', false),
+       (4, '2023-03-03', true),
+       (5, '2023-03-03', false),
+       (6, '2023-03-03', true),
+       (1, '2023-03-05', false),
+       (2, '2023-03-05', true),
+       (3, '2023-03-05', true),
+       (4, '2023-03-05', true),
+       (5, '2023-03-05', true),
+       (6, '2023-03-05', true),
+       (1, '2023-03-07', true),
+       (2, '2023-03-07', true),
+       (3, '2023-03-07', true);
+
+CREATE TABLE usuario(
+  id SERIAL PRIMARY KEY,
+  login VARCHAR(20) NOT NULL,
+  password VARCHAR(50) NOT NULL,
+  professor_id INTEGER REFERENCES professores(id)
+);
+
+
+//Qual é o número de faltas do aluno João no período de 12/2/2023 a 15/3/2023?
+
+SELECT COUNT(*) AS numero_faltas 
+FROM presencas 
+WHERE aluno_id = (SELECT id FROM alunos WHERE nome = 'João') 
+AND dia BETWEEN '2023-02-12' AND '2023-03-15' 
+AND presente = false;
+
+//Qual é o número de faltas da aluna Ana na disciplina de Matemática no período de 13/2/2023 a 16/2/2023?
+
+SELECT COUNT(*) AS numero_faltas 
+FROM presencas p 
+INNER JOIN alunos a ON p.aluno_id = a.id 
+INNER JOIN turmas t ON a.turma_id = t.id 
+INNER JOIN professores prof ON t.materia = prof.materia 
+WHERE a.nome = 'Ana' 
+AND prof.materia= 'Matemática' 
+AND p.dia BETWEEN '2023-02-13' AND '2023-04-16' 
+AND presente = false;
+
+//Quais foram as datas no período de 14/2/2023 a 17/4/2023 em que a turma A teve aulas de Matemática?
+SELECT p.dia 
+FROM presencas p 
+INNER JOIN alunos a ON p.aluno_id = a.id 
+INNER JOIN turmas t ON a.turma_id = t.id 
+INNER JOIN professores prof ON t.materia = prof.materia 
+WHERE t.nome = 'Turma A' 
+AND prof.materia = 'Matemática' 
+AND p.dia BETWEEN '2023-02-14' AND '2023-04-17';
+
+//No período de 15/2/2023 a 18/4/2023, quais foram os dias em que a aluna Maria esteve presente e quais foram os dias em que ela faltou?
+SELECT dia, presente 
+FROM presencas 
+WHERE aluno_id = (SELECT id FROM alunos WHERE nome = 'Maria') 
+AND dia BETWEEN '2023-02-15' AND '2023-04-18';
+
+//Quem é a professora de Português da turma B?
+
+SELECT prof.nome 
+FROM professores prof 
+INNER JOIN turmas t ON prof.materia= t.materia 
+INNER JOIN alunos a ON t.id = a.turma_id 
+WHERE t.nome = 'Turma B' 
+AND prof.materia= 'Português' 
+LIMIT 1;
