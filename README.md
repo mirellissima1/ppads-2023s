@@ -3,13 +3,17 @@
 
 # Instruções de como implantar esta versão da aplicação 
 
-*1. Realizar clone do projeto *
+*1. Realizar clone do projeto*
 
 *2.Instalar as dependencias e bibliotecas através do pip-install*
-3.Baixar xampp caso utilize localmente além de iniciar o serviço de MySQL 
-4.Navegar até a pasta venv e ativar o script activate 
-5.Retornar até o folder anterior 
-6.Rodar o projeto através do comando py main.py
+
+*3.Baixar xampp caso utilize localmente além de iniciar o serviço de MySQL*
+
+*4.Navegar até a pasta venv e ativar o script activate*
+
+*5.Retornar até o folder anterior*
+
+*6.Rodar o projeto através do comando py main.py*
 
 
 
