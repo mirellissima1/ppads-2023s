@@ -9,7 +9,7 @@ app.add_url_rule(routes["delete_turma_route"], view_func=routes["delete_turma_co
 
 app.add_url_rule(routes["update_turma_route"], view_func=routes["update_turma_controller"])
 
-app.add_url_rule(routes["insert_disciplina_route"], view_func=routes["insert_disciplina_controller"])
+app.add_url_rule(routes["insert_disciplina_route"], view_func=routes["insertdisciplinacontroller"])
 
 app.add_url_rule(routes["delete_disciplina_route"], view_func=routes["delete_disciplina_controller"])
 

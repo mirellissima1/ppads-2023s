@@ -17,4 +17,49 @@
     {% else %}
     Não tem turmas cadastradas
 {% endfor %}
+    <form action="/insertDisciplina" method="POST">
+            <input type="text" name="nome_disciplina" placeholder="Disciplina">
+            <input type="text" name="horario" placeholder="horario">
+            <button type="submit">Cadastrar Disciplina </button>
+    </form>
+
+    {% for disciplinas in dataD%}
+    {{disciplinas.0}}
+    <form action="/delete/disciplinas/{{disciplinas.0}}" method="POST">
+        <button>Deletar</button>
+    </form>
+    <a href="/update/disciplinas/{{disciplinas.0}}">Atualizar</a>
+    {% else %}
+    Não tem disciplinas cadastradas
+
+{% endfor %}
+<form action="/insertAluno" method="POST">
+    <input type="text" name="nome_aluno" placeholder="Aluno">
+    <button type="submit" disabled >Cadastrar Aluno </button>
+</form>
+
+{% for aluno in alunos%}
+{{aluno.0}}
+<form action="/delete/alunos/{{aluno.0}}" method="POST">
+<button>Deletar</button>
+</form>
+<a href="/update/alunos/{{aluno.0}}">Atualizar</a>
+{% else %}
+Não tem alunos cadastradas
+{% endfor %}
+<form action="/insertProfessor" method="POST">
+    <input type="text" name="nome_professor" placeholder="Professor">
+    <button type="submit" disabled >Cadastrar Professor </button>
+</form>
+
+{% for professor in professores%}
+{{professor.0}}
+<form action="/delete/professores/{{professor.0}}" method="POST">
+<button>Deletar</button>
+</form>
+<a href="/update/professores/{{disciplinas.0}}">Atualizar</a>
+{% else %}
+Não tem professores cadastrados
+{% endfor %}
+
 {%endblock%}

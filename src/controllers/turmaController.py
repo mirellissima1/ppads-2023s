@@ -11,11 +11,10 @@ class InsertTurmaController(MethodView):
         return render_template('public/index.html', data=data)
     
     def post(self):
-        nome = request.form['nome_turma']
-        # id_turma = request.form['id_turma']
+        nome_turma = request.form['nome_turma']
     
         with mysql.cursor() as cur:
-            cur.execute("INSERT INTO turmas(nome_turma) VALUES(%s)", (nome))
+            cur.execute("INSERT INTO turmas(nome_turma) VALUES(%s)", (nome_turma))
             cur.connection.commit()
             return redirect('/')
 
@@ -36,7 +35,6 @@ class UpdateTurmaController(MethodView):
             return render_template('public/updateTurma.html', turmas=turmas)
     
     def post(self,id_turma):
-        # turma_id = request.form['id_turma']
         nome_turma = request.form['nome_turma']
         with mysql.cursor() as cur:
             cur.execute("UPDATE turmas SET nome_turma =%s where id_turma = %s", (nome_turma, id_turma))

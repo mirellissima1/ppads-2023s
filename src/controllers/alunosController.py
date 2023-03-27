@@ -7,8 +7,8 @@ class InsertAlunosController(MethodView):
     def get(self):
         with mysql.cursor() as cur:
             cur.execute("SELECT * FROM alunos")
-            data = cur.fetchall()
-        return render_template('public/index.html', data=data)
+            alunos = cur.fetchall()
+        return render_template('public/index.html', alunos=alunos)
     
     def post(self):
         nome = request.form['nome_alunos']
