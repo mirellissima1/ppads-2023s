@@ -1,0 +1,11 @@
+{%extends "base.html"%}
+
+
+{%block content%}
+
+    <form action="/update/turmas/{{turmas.0}}" method="POST">
+        <input type="text" name="nome_turma" value="{{turmas.1}}"placeholder="Turma">
+        <button type="submit">Atualizar</button>
+    </form>
+
+{%endblock%}
