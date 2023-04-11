@@ -1,0 +1,41 @@
+
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+     <!-- Main Site -->
+     <main id="main">
+      <div class="container">
+          <div class="box-nav d-flex-justify-between">
+            <div class="filter">
+              <a href="/"><i class="fas fa-angle-double-left"></i>Todas as turmas</a>
+            </div>
+          </div>
+          <div class="form-title text-center">
+              <h2 class="text-dark">Atualizar turma</h2>
+              <span class="text-light">Use esse form para atualizar uma turma</span>
+          </div>
+
+           <!-- form handling-->
+            <form method="POST" id="update_turma">
+                <div class="nova_turma">
+                    <div class="form-group">
+                        <label for="name" class="text-light">Nome Turma</label>
+                        <input type="hidden" name="id" value="<%=turma._id%>">
+                        <input type="text" name="name" value="<%=turma.name%>" placeholder="Sala">
+                    </div>
+                    <div class="form-group">
+                        <button type="submit" class="btn text-dark update">Salvar</button>
+                    </div>
+                </div>
+            </form>
+            <!-- /form handling-->
+
+       
+
+      </div>
+  </main>
+<!-- /Main Site -->
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

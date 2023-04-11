@@ -1,0 +1,112 @@
+
+<!-- include header -->
+<%- include('include/_header') %>
+<!-- /include header -->
+
+    <!-- Main Site -->
+    <main id="main">
+        <div class="container">
+            <div class="box-nav d-flex-justify-between">
+                <a href="/add-turma" class="border-shadow">
+                <span class="text-gradient">
+                    Nova Turma
+                    <i class="fa-solid fa-users"></i>                   
+                </span>
+                </a>
+            </div>
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome Turma</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <%- include('include/_showTurma') %>
+                    </tbody>
+                </table>
+            </form>
+            <div class="box-nav d-flex-justify-between">
+                <a href="/add-disciplina" class="border-shadow">
+                <span class="text-gradient">
+                    Nova disciplina
+                    <i class="fa-solid fa-book"></i>                 
+                </span>
+                </a>
+            </div>
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome da disciplina</th>
+                            <th>Horário</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <%- include('include/_showDisciplina') %>
+                    </tbody>
+                </table>
+            </form>
+            <div class="box-nav d-flex-justify-between">
+                <a href="/add-aluno" class="border-shadow">
+                <span class="text-gradient">
+                    Novo Aluno
+                    <i class="fa-solid fa-users"></i>                   
+                </span>
+                </a>
+            </div>
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome Aluno</th>
+                            <th>Email Responsável</th>
+                            <th>Turma</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <%- include('include/_showAluno') %>
+                    </tbody>
+                </table>
+            </form>
+            <div class="box-nav d-flex-justify-between">
+                <a href="/add-professor" class="border-shadow">
+                <span class="text-gradient">
+                    Novo Professor
+                    <i class="fa-solid fa-users"></i>                   
+                </span>
+                </a>
+            </div>
+            <form action="/" method="POST">
+                <table class="table">
+                    <thead class="thead-dark">
+                        <tr>
+                            <th>ID</th>
+                            <th>Nome Professor</th>
+                            <th>Responsável</th>
+                            <th>Turma</th>
+                            <th>Disciplina</th>
+                            <th>Action</th>
+
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <%- include('include/_showProf') %>
+                    </tbody>
+                </table>
+            </form>
+        </div>
+    </main>
+    <!-- /Main Site -->
+   
+
+
+<!-- include footer -->
+<%- include('include/_footer') %>
+<!-- /include footer -->

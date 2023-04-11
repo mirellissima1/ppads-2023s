@@ -1,0 +1,18 @@
+ <!-- form handling-->
+ <form method="POST" id="update_professor">
+    <div class="novo_professor">
+        <div class="form-group">
+            <label for="name" class="text-light">Nome professor</label>
+            <input type="hidden" name="id" value="">
+            <input type="text" name="name" placeholder="Nome">
+            <label for="responsavel" class="text-light">Responsável?</label>
+            <input type="radio" name="sim_nao" id="sim">Sim</input>
+            <input type="radio" name="sim_nao" id="Nao" checked>Não</input>
+            <input type="text" name="Turma" placeholder="Turma">
+            <input type="text" name="Disciplina" placeholder="Disciplina">
+            <div class="form-group">
+                <button type="submit" class="btn text-dark update">Salvar</button>
+            </div>
+        </div>
+    </div>
+</form>

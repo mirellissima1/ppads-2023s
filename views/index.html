@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>crud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="../assets/css/style.css">
+
+</head>
+<body>
+    <!-- Header -->
+        <header id="header">
+            <nav>
+                <div class="container">
+                    <div class="text-center">
+                        <a href="/" class="nav-brand text-dark">ADMIN</a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+    <!--/ Header -->
+    <!-- Main Site -->
+        <main id="main">
+            <div class="container">
+                <div class="box-nav d-flex-justify-between">
+                    <a href="./addModal/add-turma.html" class="border-shadow">
+                    <span class="text-gradient">
+                        Nova Turma
+                        <i class="fa-solid fa-users"></i>                   
+                    </span>
+                    </a>
+                </div>
+                <form action="/" method="POST">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome Turma</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>4º C</td>
+                                <td>
+                                    <a href="#" class="btn-border-shadow update">
+                                        <span class="text-gradient">
+                                            <i class="fas fa-pencil-alt"></i> 
+                                        </span>
+                                    </a>
+                                    <a class="btn-border-shadow delete">
+                                        <span class="text-gradient">
+                                            <i class="fas fa-times"></i> 
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <div class="box-nav d-flex-justify-between">
+                    <a href="./addModal/add-disciplina.html" class="border-shadow">
+                    <span class="text-gradient">
+                        Nova disciplina
+                        <i class="fa-solid fa-book"></i>                 
+                    </span>
+                    </a>
+                </div>
+                <form action="/" method="POST">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome da disciplina</th>
+                                <th>Horário</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                           
+                        </tbody>
+                    </table>
+                </form>
+                <div class="box-nav d-flex-justify-between">
+                    <a href="./addModal/add-aluno.html" class="border-shadow">
+                    <span class="text-gradient">
+                        Novo Aluno
+                        <i class="fa-solid fa-users"></i>                   
+                    </span>
+                    </a>
+                </div>
+                <form action="/" method="POST">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome Aluno</th>
+                                <th>Email Responsável</th>
+                                <th>Turma</th>
+                                <th>Action</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Luan</td>
+                                <td>Luan@gmail.com</td>
+                                <td>4º C</td>
+                                <td>
+                                    <a href="#" class="btn-border-shadow update">
+                                        <span class="text-gradient">
+                                            <i class="fas fa-pencil-alt"></i> 
+                                        </span>
+                                    </a>
+                                    <a class="btn-border-shadow delete">
+                                        <span class="text-gradient">
+                                            <i class="fas fa-times"></i> 
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+                <div class="box-nav d-flex-justify-between">
+                    <a href="./addModal/add-professor.html" class="border-shadow">
+                    <span class="text-gradient">
+                        Novo Professor
+                        <i class="fa-solid fa-users"></i>                   
+                    </span>
+                    </a>
+                </div>
+                <form action="/" method="POST">
+                    <table class="table">
+                        <thead class="thead-dark">
+                            <tr>
+                                <th>ID</th>
+                                <th>Nome Professor</th>
+                                <th>Responsável</th>
+                                <th>Turma</th>
+                                <th>Disciplina</th>
+                                <th>Action</th>
+
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>1</td>
+                                <td>Thomaz</td>
+                                <td>TRUE</td>
+                                <td>4º C</td>
+                                <td>Matemática</td>
+                                <td>
+                                    <a href="#" class="btn-border-shadow update">
+                                        <span class="text-gradient">
+                                            <i class="fas fa-pencil-alt"></i> 
+                                        </span>
+                                    </a>
+                                    <a class="btn-border-shadow delete">
+                                        <span class="text-gradient">
+                                            <i class="fas fa-times"></i> 
+                                        </span>
+                                    </a>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </form>
+            </div>
+        </main>
+    <!-- /Main Site -->
+
+</body>
+</html>
