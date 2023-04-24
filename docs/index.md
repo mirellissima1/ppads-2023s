@@ -2,10 +2,6 @@
 <h3><a href= "https://www.mackenzie.br/graduacao/sao-paulo-higienopolis/sistemas-de-informacao">Sistemas de Informação</a></h3>
 
 
-<font size="+12"><center>
-*&lt;Nome do Projeto&gt;*
-</center></font>
-
 
 **Conteúdo**
 
