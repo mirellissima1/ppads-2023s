@@ -33,26 +33,25 @@
 # Diagrama de casos de uso
 
 
-* Diagrama 1:![26d88896-2a78-4c9b-b1c3-990bbd76e0f6](https://user-images.githubusercontent.com/100171962/221702556-8b0a709e-d100-4e94-89eb-d4456601b96b.jpg)
-* Diagrama 2: ![Diagrama em branco_page-0001](https://user-images.githubusercontent.com/100171962/221702837-74bcd8f3-01cf-46fc-b5a4-9a6be3f080db.jpg)
-
+* Diagrama Caso de Uso:![Diagramas Pratica Analise Sistemas](https://user-images.githubusercontent.com/88807596/235549665-6e07ab33-450f-4cfb-8d7c-a00da86e04c5.jpeg)
 
 
 # Descrição dos casos de uso
 
 * Caso de Uso Principal
-* Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
-* Atores: Aluno, Professor e Pais/Responsáveis
-* Fluxo: 
-1. O professor acessa o sistema de registro de faltas.
-2. O sistema apresenta uma lista de turmas e disciplinas que o professor leciona.
-3. O professor seleciona a turma e disciplina desejada.
-4. O sistema apresenta a lista de alunos matriculados na turma selecionada.
-5. O professor marca as faltas dos alunos ausentes na aula.
-6. O sistema registra as faltas e armazena a informação para futuras consultas.
-7. O sistema verifica o número de faltas de um aluno em um período específico.
-8. Se o número de faltas for superior a um limite estabelecido, o sistema envia uma notificação por e-mail para os pais ou responsáveis pelo aluno.
-9. A notificação inclui informações sobre as faltas acumuladas e orientações para que os pais ou responsáveis entrem em contato com a escola para tomar medidas adequadas.
+Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
+Atores: Aluno, Professor e Pais/Responsáveis
+
+Fluxo: 
+1. O Administrador cadastra professor, disciplina, aluno e turma no sistema.
+2. O professor acessa o sistema de registro de faltas.
+3. O sistema apresenta uma lista de turmas e disciplinas que o professor leciona.
+4. O professor seleciona a turma e disciplina desejada.
+5. O sistema apresenta a lista de alunos matriculados na turma selecionada.
+6. O professor marca as faltas dos alunos ausentes na aula.
+7. O sistema registra as faltas e armazena a informação para futuras consultas.
+8. O sistema verifica o número de faltas de um aluno em um período específico.
+9. Se o número de faltas for superior a um limite estabelecido, o sistema envia uma notificação por e-mail para os pais ou responsáveis pelo aluno.
 10. O sistema registra o envio da notificação e armazena a informação para futuras consultas.
 
 
