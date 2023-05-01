@@ -40,10 +40,10 @@
 
 # Descrição dos casos de uso
 
-*Caso de Uso Principal
-Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
-Atores: Aluno, Professor e Pais/Responsáveis
-Fluxo: 
+*Caso de Uso Principal*
+*Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
+*Atores: Aluno, Professor e Pais/Responsáveis
+*Fluxo: 
 1. O professor acessa o sistema de registro de faltas.
 2. O sistema apresenta uma lista de turmas e disciplinas que o professor leciona.
 3. O professor seleciona a turma e disciplina desejada.
