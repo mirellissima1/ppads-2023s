@@ -40,13 +40,20 @@
 
 # Descrição dos casos de uso
 
-*Caso 01: Registro de faltas
-Descrição: Permitir que o professor registre faltas.
-Atores: Aluno e Professor*
-
-*Caso 02: Notificações 
-Descrição: Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
-Ator: Pais/Responsáveis*
+*Caso de Uso Principal
+Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
+Atores: Aluno, Professor e Pais/Responsáveis
+Fluxo: 
+1. O professor acessa o sistema de registro de faltas.
+2. O sistema apresenta uma lista de turmas e disciplinas que o professor leciona.
+3. O professor seleciona a turma e disciplina desejada.
+4. O sistema apresenta a lista de alunos matriculados na turma selecionada.
+5. O professor marca as faltas dos alunos ausentes na aula.
+6. O sistema registra as faltas e armazena a informação para futuras consultas.
+7. O sistema verifica o número de faltas de um aluno em um período específico.
+8. Se o número de faltas for superior a um limite estabelecido, o sistema envia uma notificação por e-mail para os pais ou responsáveis pelo aluno.
+9. A notificação inclui informações sobre as faltas acumuladas e orientações para que os pais ou responsáveis entrem em contato com a escola para tomar medidas adequadas.
+10. O sistema registra o envio da notificação e armazena a informação para futuras consultas.
 
 
 # Protótipos de tela
