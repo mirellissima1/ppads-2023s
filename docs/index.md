@@ -40,7 +40,7 @@
 
 * Caso de Uso Principal
 Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
-Atores: Aluno, Professor e Pais/Responsáveis
+Atores: Administrador, Professor e Pais/Responsáveis
 
 Fluxo: 
 1. O Administrador cadastra professor, disciplina, aluno e turma no sistema.
