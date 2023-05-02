@@ -57,9 +57,16 @@ Fluxo:
 
 # Protótipos de tela
 ![TELA - LOGIN](https://user-images.githubusercontent.com/88807596/219998781-8097e83b-0637-4f4f-a232-a27b40e5c23e.jpg)
+
 ![TELA - SALAS PROFESSOR](https://user-images.githubusercontent.com/88807596/219998789-fa3e580d-4559-4437-8ba1-ab976d827a8e.jpg)
 ![TELA - INFORMAR DATA E HORA DO REGISTRO](https://user-images.githubusercontent.com/88807596/222939093-d73e9d50-4b23-49fc-95eb-ca152d082566.png)
 ![TELA - REGISTRAR PRESENÇA](https://user-images.githubusercontent.com/88807596/222939104-70efa4cc-1a20-401f-8863-1158135adf54.png)
+![Web 1920 – 9](https://user-images.githubusercontent.com/88807596/235555557-75c155b9-ee13-4056-89e1-aae97abc0034.jpg)
+![TELA - ADD NOVA TURMA](https://user-images.githubusercontent.com/88807596/235555568-f2fcd317-567a-45d5-a973-117436faa4ac.jpg)
+![Web 1920 – 10](https://user-images.githubusercontent.com/88807596/235555574-fc101482-4ab1-49c0-8745-50e618a88117.jpg)
+![Web 1920 – 11](https://user-images.githubusercontent.com/88807596/235555580-2829f204-a2fe-4a76-8a6d-4a089d0ed990.jpg)
+![Web 1920 – 12](https://user-images.githubusercontent.com/88807596/235555590-606bdae8-4e4f-4ce5-8a87-2f3800da8cca.jpg)
+
 
 
 
