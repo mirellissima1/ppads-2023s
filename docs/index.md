@@ -70,7 +70,7 @@ Fluxo:
 
 # Modelo de domínio
 
-![Modelo de Dominio](https://user-images.githubusercontent.com/100171962/224523321-7890625a-424d-422a-b3f5-0b84165ed88a.jpeg)
+![ModeloDominio-PratAns](https://user-images.githubusercontent.com/88807596/236650065-0add8548-9ea3-40ce-ac96-5c18234ed634.jpeg)
 
 
 
