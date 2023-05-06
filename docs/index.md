@@ -83,7 +83,7 @@ Visão
 Não queremos construir algo complexo, trazendo algo simples, mas eficiente e facilidade no uso do software.
 
 Desenvolvimento
-Pretendemos desenvolver Back-End em Python com banco não relacional MongoDB, Front-End em HTML e CSS.
+Pretendemos desenvolver Back-End em Node, banco não relacional MongoDB e Front-End em react.
 
 # Diagrama de implantação
 
