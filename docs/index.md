@@ -31,12 +31,11 @@
 
 
 # Diagrama de casos de uso
-
+![Diagrama Casos de Uso](https://github.com/mirellissima1/ppads-2023s/assets/88807596/217a1197-463e-4866-aa6f-c5cbd4ebfd77)
 
 * Diagrama Caso de Uso:
 
-# Descrição dos casos de uso![Diagrama Casos de Uso](https://github.com/mirellissima1/ppads-2023s/assets/88807596/d3e377e9-025c-4a5b-8cde-b917a392cda0)
-
+# Descrição dos casos de uso
 
 * Caso de Uso Principal
 Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
