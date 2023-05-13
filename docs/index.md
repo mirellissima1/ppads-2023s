@@ -33,8 +33,6 @@
 # Diagrama de casos de uso
 ![Diagrama Casos de Uso](https://github.com/mirellissima1/ppads-2023s/assets/88807596/217a1197-463e-4866-aa6f-c5cbd4ebfd77)
 
-* Diagrama Caso de Uso:
-
 # Descrição dos casos de uso
 
 * Caso de Uso Principal
@@ -69,7 +67,7 @@ Fluxo:
 
 # Modelo de domínio
 
-![ModeloDominio-PratAns](https://user-images.githubusercontent.com/88807596/236650065-0add8548-9ea3-40ce-ac96-5c18234ed634.jpeg)
+![ModeloDominio-PratAns](https://github.com/mirellissima1/ppads-2023s/assets/88807596/e2ec4b4d-912b-4af1-94fc-6f4747e74be2)
 
 
 
