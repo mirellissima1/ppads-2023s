@@ -51,13 +51,21 @@ Atores: Administrador, Professor e Pais/Responsáveis
 
 -Após finalizar a chamada, o sistema registra as informações de presença/falta para cada aluno.
 
+
+
 2. Caso de uso: Alterar registro de presença (Ator: Professor)
 
 -O professor seleciona a turma em que deseja fazer a alteração de presença.
--O professor informa data e hora do dia em que lançou a falta
+
+-O professor informa data e hora do dia em que lançou a falta.
+
 -O sistema exibe o registro de presença atual dos alunos.
+
 -O professor seleciona o aluno para o qual deseja fazer a alteração.
+
 -O sistema registra alteração do registro de presença.
+
+
 
 3. Caso de uso: Receber notificação (Ator: Responsável)
 
