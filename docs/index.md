@@ -39,17 +39,55 @@
 Descrição: Permitir que o professor registre faltas e Enviar notificações por e-mail para pais e responsáveis em caso de faltas excessivas.
 Atores: Administrador, Professor e Pais/Responsáveis
 
-Fluxo: 
-1. O Administrador cadastra professor, disciplina, aluno e turma no sistema.
-2. O professor acessa o sistema de registro de faltas.
-3. O sistema apresenta uma lista de turmas e disciplinas que o professor leciona.
-4. O professor seleciona a turma e disciplina desejada.
-5. O sistema apresenta a lista de alunos matriculados na turma selecionada.
-6. O professor marca as faltas dos alunos ausentes na aula.
-7. O sistema registra as faltas e armazena a informação para futuras consultas.
-8. O sistema verifica o número de faltas de um aluno em um período específico.
-9. Se o número de faltas for superior a um limite estabelecido, o sistema envia uma notificação por e-mail para os pais ou responsáveis pelo aluno.
-10. O sistema registra o envio da notificação e armazena a informação para futuras consultas.
+1. Caso de uso: Efetuar chamada (Ator: Professor)
+
+-O professor seleciona a turma na qual deseja efetuar a chamada.
+-O professor informa data e hora do lançamento das faltas.
+-O sistema exibe a lista de alunos matriculados na turma.
+-O professor marca a presença ou falta de cada aluno, usando opções disponíveis no sistema.
+-Após finalizar a chamada, o sistema registra as informações de presença/falta para cada aluno.
+
+2. Caso de uso: Alterar registro de presença (Ator: Professor)
+
+-O professor seleciona a turma em que deseja fazer a alteração de presença.
+-O professor informa data e hora do dia em que lançou a falta
+-O sistema exibe o registro de presença atual dos alunos.
+-O professor seleciona o aluno para o qual deseja fazer a alteração.
+-O sistema registra alteração do registro de presença.
+
+3. Caso de uso: Receber notificação (Ator: Responsável)
+
+-O sistema identifica a falta de um aluno em uma aula.
+-O sistema envia uma notificação por e-mail para o responsável (pai/mãe) do aluno faltante.
+-A notificação contém informações sobre a data, horário e disciplina da aula em que o aluno faltou.
+
+4. Caso de uso: Cadastrar professor (Ator: Administrador)
+
+O administrador do sistema seleciona a opção de cadastrar um novo professor.
+O sistema exibe um formulário para preenchimento dos dados do professor, como nome, e-mail e senha.
+O administrador preenche os dados do professor.
+O sistema valida os dados e registra o novo professor no sistema.
+
+5. Caso de uso: Cadastrar disciplina (Ator: Administrador)
+
+O administrador seleciona a opção de cadastrar uma nova disciplina.
+O sistema exibe um formulário para preenchimento dos dados da disciplina, como nome e descrição.
+O administrador preenche os dados da disciplina.
+O sistema valida os dados e registra a nova disciplina no sistema.
+
+6. Caso de uso: Cadastrar aluno (Ator: Administrador)
+
+O administrador seleciona a opção de cadastrar um novo aluno.
+O sistema exibe um formulário para preenchimento dos dados do aluno, como nome, data de nascimento e matrícula.
+O administrador preenche os dados do aluno.
+O sistema valida os dados e registra o novo aluno no sistema.
+
+7. Caso de uso: Cadastrar turma (Ator: Administrador)
+
+O administrador seleciona a opção de cadastrar uma nova turma.
+O sistema exibe um formulário para preenchimento dos dados da turma, como ano, curso e horário.
+O administrador preenche os dados da turma.
+O sistema valida os dados e registra a nova turma no sistema.
 
 
 # Protótipos de tela
