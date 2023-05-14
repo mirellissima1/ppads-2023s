@@ -42,9 +42,13 @@ Atores: Administrador, Professor e Pais/Responsáveis
 1. Caso de uso: Efetuar chamada (Ator: Professor)
 
 -O professor seleciona a turma na qual deseja efetuar a chamada.
+
 -O professor informa data e hora do lançamento das faltas.
+
 -O sistema exibe a lista de alunos matriculados na turma.
+
 -O professor marca a presença ou falta de cada aluno, usando opções disponíveis no sistema.
+
 -Após finalizar a chamada, o sistema registra as informações de presença/falta para cada aluno.
 
 2. Caso de uso: Alterar registro de presença (Ator: Professor)
