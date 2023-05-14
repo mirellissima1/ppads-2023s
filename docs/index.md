@@ -146,7 +146,7 @@ Pretendemos desenvolver Back-End em Node, banco não relacional MongoDB e Front-
 
 # Diagrama de implantação
 
-*&lt;Diagrama de implantação&gt;*
+![Diagrama de Implantação ](https://github.com/mirellissima1/ppads-2023s/assets/88807596/941a2f3d-8498-4e1a-aa7a-c90f835948e9)
 
 # Referências
 
