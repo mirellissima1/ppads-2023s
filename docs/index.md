@@ -65,8 +65,6 @@ Atores: Administrador, Professor e Pais/Responsáveis
 
 -O sistema registra alteração do registro de presença.
 
-
-
 3. Caso de uso: Receber notificação (Ator: Responsável)
 
 -O sistema identifica a falta de um aluno em uma aula.
@@ -75,31 +73,43 @@ Atores: Administrador, Professor e Pais/Responsáveis
 
 4. Caso de uso: Cadastrar professor (Ator: Administrador)
 
-O administrador do sistema seleciona a opção de cadastrar um novo professor.
-O sistema exibe um formulário para preenchimento dos dados do professor, como nome, e-mail e senha.
-O administrador preenche os dados do professor.
-O sistema valida os dados e registra o novo professor no sistema.
+-O administrador do sistema seleciona a opção de cadastrar um novo professor.
+
+-O sistema exibe um formulário para preenchimento dos dados do professor, como nome, e-mail e senha.
+
+-O administrador preenche os dados do professor.
+
+-O sistema valida os dados e registra o novo professor no sistema.
 
 5. Caso de uso: Cadastrar disciplina (Ator: Administrador)
 
-O administrador seleciona a opção de cadastrar uma nova disciplina.
-O sistema exibe um formulário para preenchimento dos dados da disciplina, como nome e descrição.
-O administrador preenche os dados da disciplina.
-O sistema valida os dados e registra a nova disciplina no sistema.
+-O administrador seleciona a opção de cadastrar uma nova disciplina.
+
+-O sistema exibe um formulário para preenchimento dos dados da disciplina, como nome e descrição.
+
+-O administrador preenche os dados da disciplina.
+
+-O sistema valida os dados e registra a nova disciplina no sistema.
 
 6. Caso de uso: Cadastrar aluno (Ator: Administrador)
 
-O administrador seleciona a opção de cadastrar um novo aluno.
-O sistema exibe um formulário para preenchimento dos dados do aluno, como nome, data de nascimento e matrícula.
-O administrador preenche os dados do aluno.
-O sistema valida os dados e registra o novo aluno no sistema.
+-O administrador seleciona a opção de cadastrar um novo aluno.
+
+-O sistema exibe um formulário para preenchimento dos dados do aluno, como nome, data de nascimento e matrícula.
+
+-O administrador preenche os dados do aluno.
+
+-O sistema valida os dados e registra o novo aluno no sistema.
 
 7. Caso de uso: Cadastrar turma (Ator: Administrador)
 
-O administrador seleciona a opção de cadastrar uma nova turma.
-O sistema exibe um formulário para preenchimento dos dados da turma, como ano, curso e horário.
-O administrador preenche os dados da turma.
-O sistema valida os dados e registra a nova turma no sistema.
+-O administrador seleciona a opção de cadastrar uma nova turma.
+
+-O sistema exibe um formulário para preenchimento dos dados da turma, como ano, curso e horário.
+
+-O administrador preenche os dados da turma.
+
+-O sistema valida os dados e registra a nova turma no sistema.
 
 
 # Protótipos de tela
