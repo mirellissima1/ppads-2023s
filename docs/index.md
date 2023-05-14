@@ -68,7 +68,9 @@ Atores: Administrador, Professor e Pais/Responsáveis
 3. Caso de uso: Receber notificação (Ator: Responsável)
 
 -O sistema identifica a falta de um aluno em uma aula.
+
 -O sistema envia uma notificação por e-mail para o responsável (pai/mãe) do aluno faltante.
+
 -A notificação contém informações sobre a data, horário e disciplina da aula em que o aluno faltou.
 
 4. Caso de uso: Cadastrar professor (Ator: Administrador)
