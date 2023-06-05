@@ -31,7 +31,8 @@
 
 
 # Diagrama de casos de uso
-![Diagrama Casos de Uso](https://github.com/mirellissima1/ppads-2023s/assets/88807596/217a1197-463e-4866-aa6f-c5cbd4ebfd77)
+![Diagramas Pratica Analise Sistemas](https://github.com/mirellissima1/ppads-2023s/assets/88807596/42d9af84-2937-4f43-b937-dd0e23192a33)
+
 
 # Descrição dos casos de uso
 
@@ -113,6 +114,15 @@ Atores: Administrador, Professor e Pais/Responsáveis
 
 -O sistema valida os dados e registra a nova turma no sistema.
 
+8. Caso de uso: Gerar relatório falta (Ator: Administrador)
+
+-O administrador seleciona a opção de Admin/Aluno.
+
+-O sistema exibe lista com os alunos cadatrados.
+
+-O administrador visualiza icone de download do relatório dos alunos com faltas.
+
+-O sistema gera relatório.
 
 # Protótipos de tela
 ![TELA - LOGIN](https://user-images.githubusercontent.com/88807596/219998781-8097e83b-0637-4f4f-a232-a27b40e5c23e.jpg)
